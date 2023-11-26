@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Microsoft - CLoud, Computers, Apps &amp; Gaming</title>
-    <link rel="icon" type="image/png" href="/2021_Facebook_icon.svg.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="/images/Microsoft_logo.svg" sizes="16x16">
 </head>
 
 <body>
-    <div class="navbar flex justify-between items-center">
+    <div class="navbar flex justify-between items-center p-2 md:mx-1 lg:mx-3">
         <div class="flex md:order-2">
             <div class="hamburger inline-block p-3 cursor-pointer md:hidden">
                 <div class="line bg-black h-0.5 w-6 my-1"></div>
@@ -18,7 +18,19 @@
                 <div class="line bg-black h-0.5 w-6 my-1"></div>
                 <!-- <div class="line bg-black h-1 w-6 my-1"></div> -->
             </div>
-            <div class="search my-2.5 md:hidden">Search</div>
+            <div class="search my-2.5 md:hidden group">
+                <div class="cursor-pointer md:block"><svg xmlns="http://www.w3.org/2000/svg"
+                        class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24"
+                        stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
+                        <path d="M21 21l-6 -6" />
+                    </svg></div>
+                <div
+                    class="absolute invisible group-hover:visible text-xs flex w-fit h-fit -mx-5 my-2 bg-yellow-50 p-[2px] outline outline-1">
+                    Search items
+                </div>
+            </div>
         </div>
         <div class="logo flex items-center md:order-1 space-x-2">
             <img src="images/microsoft_logo.png" alt="Microsoft Logo" class="w-32 mx-2 my-2 cursor-pointer"
@@ -30,34 +42,135 @@
                 <div class="fititem">Microsoft 365</div>
                 <!-- <div class="fititem">365</div> -->
 
-                <div class="fititem">Office</div>
-                <div class="fititem">Windows</div>
-                <div class="fititem">Surface</div>
-                <div class="fititem">Xbox</div>
-                <div class="fititem">Support</div>
+                <div class="fititem  hover:underline-offset-8 decoration-2 hover:underline">Office</div>
+                <div class="fititem  hover:underline-offset-8 decoration-2 hover:underline">Windows</div>
+                <div class="fititem  hover:underline-offset-8 decoration-2 hover:underline">Surface</div>
+                <div class="fititem  hover:underline-offset-8 decoration-2 hover:underline">Xbox</div>
+                <div class="fititem  hover:underline-offset-8 decoration-2 hover:underline">Support</div>
             </div>
         </div>
         <div class="flex space-x-2 md:order-3 mx-2">
-            <div class="search hidden md:block">Search</div>
-            <div class="cart account">Cart</div>
-            <div class="account ">Account</div>
+            <div class="search group">
+                <div class="p-1 cursor-pointer search hidden md:block"><svg xmlns="http://www.w3.org/2000/svg"
+                        class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24"
+                        stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
+                        <path d="M21 21l-6 -6" />
+                    </svg></div>
+                <div
+                    class="absolute invisible group-hover:visible text-xs flex w-fit h-fit -mx-5 my-2 bg-yellow-50 p-[2px] outline outline-1">
+                    Search items
+                </div>
+            </div>
+
+            <div class="cart group">
+                <div class="cart account p-1 cursor-pointer"><svg xmlns="http://www.w3.org/2000/svg"
+                        class="icon icon-tabler icon-tabler-shopping-cart" width="24" height="24" viewBox="0 0 24 24"
+                        stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M6 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                        <path d="M17 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                        <path d="M17 17h-11v-14h-2" />
+                        <path d="M6 5l14 1l-1 7h-13" />
+                    </svg>
+                </div>
+                <div
+                    class="absolute invisible group-hover:visible text-xs flex w-fit h-fit -mx-22 my-2 bg-yellow-50 p-[2px] outline outline-1">
+                    Items 0
+                </div>
+
+            </div>
+            <div class="account group">
+                <div class="account rounded-full border-2 cursor-pointer border-gray-300 p-1"><svg
+                        xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24"
+                        height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0" />
+                        <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+                    </svg>
+                </div>
+                <div
+                    class="absolute invisible group-hover:visible text-xs flex w-fit h-fit -mx-32 my-2 bg-yellow-50 p-[2px] outline outline-1">
+                    Account information for Manas
+                </div>
+            </div>
         </div>
     </div>
 
     <!-- Other body elements -->
     <div class="slider bg-[#f2f2f2]">
         <div class="slide flex flex-col-reverse md:flex-row bg-[#f2f2f2] h-fit">
-            <div class="left flex flex-col md:text-left  md:items-start- md:flex-col p-3 space-y-3 md:w-[45%]">
-                <h1 class="w-full text-center md:text-left">
+            <div
+                class="left flex flex-col md:items-baseline md:mx-8 items-center  md:justify-center md:flex-col p-3 space-y-3 md:w-[55%]">
+                <h1 class="w-fit h-fit font-bold text-2xl">
                     Surface Pro
                 </h1>
-                <p> The All New Laptop of Microsoft with enterprise level security in it </p>
+                <p class="w-[80%]"> The All New Laptop of Microsoft with enterprise level security in it </p>
+                <button
+                    class="hover:border-black hover:bg-white hover:text-black border-2 shadow-2xl rounded-md py-2 px-4 text-white bg-gray-800 border-yellow-400">Buy
+                    Now</button>
             </div>
-            <div class="right flex-col w-[55%] h-fit">
-                <img src="/images/surface.avif" alt="" class="w-fit h-fit">
+            <div class="right flex-col md:w-[45%]  h-fit items-center">
+                <img src="/images/surface.png" alt="" class="h-fit">
             </div>
         </div>
     </div>
+    <div class="content h-96"></div>
+    <div class="footer bg-[#f2f2f2] w-full h-80 flex flex-wrap flex-col">
+        <div class="section_link">
+
+        </div>
+        <div class="section_2 flex flex-col">
+            <div class="icon-1 flex">
+                <div><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-world" width="24"
+                        height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
+                        <path d="M3.6 9h16.8" />
+                        <path d="M3.6 15h16.8" />
+                        <path d="M11.5 3a17 17 0 0 0 0 18" />
+                        <path d="M12.5 3a17 17 0 0 1 0 18" />
+                    </svg></div>
+                <div></div><a id="locale-picker-link"
+                    aria-label="Content Language Selector. Currently set to English (India)"
+                    class="c-uhff-link c-uhff-lang-selector c-glyph glyph-world"
+                    href="https://www.microsoft.com/en-in/locale"
+                    data-m="{&quot;cN&quot;:&quot;locale_picker(IN)_nav&quot;,&quot;id&quot;:&quot;n7c1c1m1r1a2&quot;,&quot;sN&quot;:7,&quot;aN&quot;:&quot;c1c1m1r1a2&quot;}">English
+                    (India)</a>
+            </div>
+        </div>
+        <div class="icon-2 flex">
+            <svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 14" xml:space="preserve" height="16"
+                width="43">
+                <title>California Consumer Privacy Act (CCPA) Opt-Out Icon</title>
+                <path d="M7.4 12.8h6.8l3.1-11.6H7.4C4.2 1.2 1.6 3.8 1.6 7s2.6 5.8 5.8 5.8z"
+                    style="fill-rule:evenodd;clip-rule:evenodd;fill:#fff"></path>
+                <path
+                    d="M22.6 0H7.4c-3.9 0-7 3.1-7 7s3.1 7 7 7h15.2c3.9 0 7-3.1 7-7s-3.2-7-7-7zm-21 7c0-3.2 2.6-5.8 5.8-5.8h9.9l-3.1 11.6H7.4c-3.2 0-5.8-2.6-5.8-5.8z"
+                    style="fill-rule:evenodd;clip-rule:evenodd;fill:#06f"></path>
+                <path
+                    d="M24.6 4c.2.2.2.6 0 .8L22.5 7l2.2 2.2c.2.2.2.6 0 .8-.2.2-.6.2-.8 0l-2.2-2.2-2.2 2.2c-.2.2-.6.2-.8 0-.2-.2-.2-.6 0-.8L20.8 7l-2.2-2.2c-.2-.2-.2-.6 0-.8.2-.2.6-.2.8 0l2.2 2.2L23.8 4c.2-.2.6-.2.8 0z"
+                    style="fill:#fff"></path>
+                <path
+                    d="M12.7 4.1c.2.2.3.6.1.8L8.6 9.8c-.1.1-.2.2-.3.2-.2.1-.5.1-.7-.1L5.4 7.7c-.2-.2-.2-.6 0-.8.2-.2.6-.2.8 0L8 8.6l3.8-4.5c.2-.2.6-.2.9 0z"
+                    style="fill:#06f"></path>
+            </svg>
+            <div class="text">Your Privacy Choices</div>
+        </div>
+        <div></div>
+    </div>
+    <ul class="section_contact_info flex flex-wrap space-x-4 mx-7 md:justify-end">
+        <li class="text-xs md:text-sm lg:text-base hover:underline text-gray-800 ">Contact Microsoft</li>
+        <li class="text-xs md:text-sm lg:text-base hover:underline text-gray-800 ">Privacy</li>
+        <li class="text-xs md:text-sm lg:text-base hover:underline text-gray-800 ">Terms of use</li>
+        <li class="text-xs md:text-sm lg:text-base hover:underline text-gray-800 ">Trademarks</li>
+        <li class="text-xs md:text-sm lg:text-base hover:underline text-gray-800 ">About our ads</li>
+        <li class="text-xs md:text-sm lg:text-base hover:underline text-gray-800 ">&copy; Microsoft 2023</li>
+        </div>
+        </div>
 </body>
 
 </html>
