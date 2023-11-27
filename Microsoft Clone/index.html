@@ -100,77 +100,397 @@
     </div>
 
     <!-- Other body elements -->
-    <div class="slider bg-[#f2f2f2]">
-        <div class="slide flex flex-col-reverse md:flex-row bg-[#f2f2f2] h-fit">
+    <div class="slider shadow-xl p-2 bg-[#f2f2f2]">
+        <div class="slide flex md:justify-between items-center flex-col-reverse md:flex-row bg-[#f2f2f2] h-fit">
             <div
-                class="left flex flex-col md:items-baseline md:mx-8 items-center  md:justify-center md:flex-col p-3 space-y-3 md:w-[55%]">
-                <h1 class="w-fit h-fit font-bold text-2xl">
+                class="left flex flex-col md:mx-8 items-center  md:justify-between md:flex-col p-3 space-y-3 md:w-[55%]">
+                <div class="content-slider flex flex-col gap-5"> <h1 class="items-center w-full h-fit flex font-bold text-2xl md:text-3xl lg:text-4xl">
                     Surface Pro
                 </h1>
-                <p class="w-[80%]"> The All New Laptop of Microsoft with enterprise level security in it </p>
-                <button
-                    class="hover:border-black hover:bg-white hover:text-black border-2 shadow-2xl rounded-md py-2 px-4 text-white bg-gray-800 border-yellow-400">Buy
-                    Now</button>
+                <p class="w-[80%] md:text-lg lg:text-xl"> The All New Laptop of Microsoft with enterprise level security in it </p>
+                <a href=""><button
+                        class="hover:border-black hover:bg-white hover:text-black border-2 shadow-2xl md:text-lg lg:text-xl rounded-md py-2 px-4 text-white bg-gray-800 border-yellow-400">Buy
+                        Now</button>
+                </a></div>
+               
             </div>
             <div class="right flex-col md:w-[45%]  h-fit items-center">
                 <img src="/images/surface.png" alt="" class="h-fit">
             </div>
         </div>
     </div>
-    <div class="content h-96"></div>
-    <div class="footer bg-[#f2f2f2] w-full h-80 flex flex-wrap flex-col">
-        <div class="section_link">
-
+    <div class="content mt-16 w-full h-fit mb-16 flex flex-col">
+        <div class="4content w-full h-fit flex flex-row flex-wrap space-x- justify-center gap-x-16 gap-y-7">
+            <div class="items-with-img">
+                <div class="img-custom">
+                    <img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/gldn-Quick-Link-Icon-80x80-Microsoft-365?wid=40&amp;hei=40"
+                        data-automation-test-id="LinkListItemGlobalImgLazyLoad0-link-list-uid36b3" loading="lazy" alt=""
+                        class="img-fluid flex-shrink-0 mb-2" data-bi-cn="Choose your Microsoft 365"
+                        data-bi-ecn="Choose your Microsoft 365" data-bi-bhvr="0" data-bi-ct="CTA" data-bi-pa="Body"
+                        data-bi-compnm="Link List" width="40" height="40">
+                </div>
+                <div class="text">
+                    Choose your Microsoft 366
+                </div>
+            </div>
+            <div class="items-with-img">
+                <div class="img-custom">
+                    <img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/xbox-blk-logo-link-list-120x120?wid=40&amp;hei=40"
+                        data-automation-test-id="LinkListItemGlobalImgLazyLoad1-link-list-uid36b3" loading="lazy" alt=""
+                        class="img-fluid flex-shrink-0 mb-2" data-bi-cn="Buy Xbox games and consoles"
+                        data-bi-ecn="Buy Xbox games and consoles" data-bi-bhvr="0" data-bi-ct="CTA" data-bi-pa="Body"
+                        data-bi-compnm="Link List" width="40" height="40">
+                </div>
+                <div class="text">Buy Xbox games and consoles</div>
+            </div>
+            <div class="items-with-img">
+                <div class="img-custom">
+                    <img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/gldn-Quick-Link-Icon-80x80-Microsoft-365?wid=40&amp;hei=40"
+                        data-automation-test-id="LinkListItemGlobalImgLazyLoad2-link-list-uid36b3" loading="lazy" alt=""
+                        class="img-fluid flex-shrink-0 mb-2" data-bi-cn="Get Windows 11" data-bi-ecn="Get Windows 11"
+                        data-bi-bhvr="0" data-bi-ct="CTA" data-bi-pa="Body" data-bi-compnm="Link List" width="40"
+                        height="40">
+                </div>
+                <div class="text">Get Windows 11</div>
+            </div>
+            <div class="items-with-img">
+                <div class="img-custom">
+                    <img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/surface-go2-link-list-120x120?wid=40&amp;hei=40"
+                        data-automation-test-id="LinkListItemGlobalImgLazyLoad3-link-list-uid36b3" loading="lazy" alt=""
+                        class="img-fluid flex-shrink-0 mb-2" data-bi-cn="Explore Surface devices"
+                        data-bi-ecn="Explore Surface devices" data-bi-bhvr="0" data-bi-ct="CTA" data-bi-pa="Body"
+                        data-bi-compnm="Link List" width="40" height="40">
+                </div>
+                <div class="text">Explore Surface devices</div>
+            </div>
         </div>
-        <div class="section_2 flex flex-col">
+        <div class="items_cards gap-10 mt-20 mx-6 flex justify-center flex-row flex-wrap">
+            <div class="cards">
+                <div class="img-products">
+                    <img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/gldn-XSX-CP-Xbox-Series-X?wid=406&amp;hei=230&amp;fit=crop"
+                        loading="lazy" class="card-img" alt="An Xbox Series X console and an Xbox controller">
+                </div>
+                <div class="items-content max-w-[406px]">
+                    <div class="head">
+                        Xbox Series X
+                    </div>
+                    <div class="description">The Fastest, most powerful Xbox ever. </div>
+                    <div class="link-product flex space-x-2 group w-fit">
+                        <div class="text-pro w-fit">
+                            Shop Xbox Series X
+                        </div>
+                        <div class="translate-svg w-fit">
+                            <svg xmlns="http://www.w3.org/2000/svg"
+                                class="icon icon-tabler icon-tabler-arrow-badge-right-filled" width="24" height="24"
+                                viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <path
+                                    d="M7 6l-.112 .006a1 1 0 0 0 -.669 1.619l3.501 4.375l-3.5 4.375a1 1 0 0 0 .78 1.625h6a1 1 0 0 0 .78 -.375l4 -5a1 1 0 0 0 0 -1.25l-4 -5a1 1 0 0 0 -.78 -.375h-6z"
+                                    stroke-width="0" fill="currentColor" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cards">
+                <div class="img-products">
+                    <img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/gldn-XSS-CP-Xbox-Series-S-Evergreen?wid=406&amp;hei=230&amp;fit=crop"
+                        loading="lazy" class="card-img" alt="An Xbox Series S console and an Xbox controller">
+                </div>
+                <div class="items-content max-w-[406px]">
+                    <div class="head">
+                        Xbox Series S
+                    </div>
+                    <div class="description">Xbox Series S </div>
+                    <div class="link-product flex space-x-2 group w-fit">
+                        <div class="text-pro">
+                            Shop Xbox Series S
+                        </div>
+                        <div class="translate-svg">
+                            <svg xmlns="http://www.w3.org/2000/svg"
+                                class="icon icon-tabler icon-tabler-arrow-badge-right-filled" width="24" height="24"
+                                viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <path
+                                    d="M7 6l-.112 .006a1 1 0 0 0 -.669 1.619l3.501 4.375l-3.5 4.375a1 1 0 0 0 .78 1.625h6a1 1 0 0 0 .78 -.375l4 -5a1 1 0 0 0 0 -1.25l-4 -5a1 1 0 0 0 -.78 -.375h-6z"
+                                    stroke-width="0" fill="currentColor" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cards">
+                <div class="img-products">
+                    <img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Surface-Laptop-Studio-01-CP?wid=406&amp;hei=230&amp;fit=crop"
+                        loading="lazy" class="card-img"
+                        alt="Surface Laptop Studio with keyboard attached, propped on kickstand.">
+                </div>
+                <div class="items-content max-w-[406px]">
+                    <div class="head">Surface Laptop Studio</div>
+                    <div class="description">Flex your creative muscle on the most powerful Surface Laptop. Now
+                        available with Windows 11.</div>
+                    <div class="link-product flex space-x-2 group w-fit">
+                        <div class="text-pro w-fit">
+                            Learn more
+                        </div>
+                        <div class="translate-svg">
+                            <svg xmlns="http://www.w3.org/2000/svg"
+                                class="icon icon-tabler icon-tabler-arrow-badge-right-filled" width="24" height="24"
+                                viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <path
+                                    d="M7 6l-.112 .006a1 1 0 0 0 -.669 1.619l3.501 4.375l-3.5 4.375a1 1 0 0 0 .78 1.625h6a1 1 0 0 0 .78 -.375l4 -5a1 1 0 0 0 0 -1.25l-4 -5a1 1 0 0 0 -.78 -.375h-6z"
+                                    stroke-width="0" fill="currentColor" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cards">
+                <div class="img-products">
+                    <img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Content-Card-Microsoft-365-Lifestyle-Sandstone-Icon-Toss?wid=406&amp;hei=230&amp;fit=crop"
+                        loading="lazy" class="card-img"
+                        alt="A young woman works on a Surface laptop while Microsoft 365 App icons whirl around her head.">
+                </div>
+                <div class="items-content max-w-[406px]">
+                    <div class="head">Maximise the everyday with Microsoft 365 </div>
+                    <div class="description">Get online protection, secure cloud storage and innovative apps designed to
+                        fit your needs – all in one plan. </div>
+                    <div class="links-prouct flex space-x-7 w-fit">
+                        <div class="one link-product flex space-x-2 group w-fit">
+                            <div class="text-pro">
+                                For one person
+                            </div>
+                            <div class="translate-svg">
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                    class="icon icon-tabler icon-tabler-arrow-badge-right-filled" width="24" height="24"
+                                    viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path
+                                        d="M7 6l-.112 .006a1 1 0 0 0 -.669 1.619l3.501 4.375l-3.5 4.375a1 1 0 0 0 .78 1.625h6a1 1 0 0 0 .78 -.375l4 -5a1 1 0 0 0 0 -1.25l-4 -5a1 1 0 0 0 -.78 -.375h-6z"
+                                        stroke-width="0" fill="currentColor" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="two link-product flex space-x-2 group w-fit">
+                            <div class="text-pro flex-row">
+                                For upto six people
+                            </div>
+                            <div class="translate-svg">
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                    class="icon icon-tabler icon-tabler-arrow-badge-right-filled" width="24" height="24"
+                                    viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path
+                                        d="M7 6l-.112 .006a1 1 0 0 0 -.669 1.619l3.501 4.375l-3.5 4.375a1 1 0 0 0 .78 1.625h6a1 1 0 0 0 .78 -.375l4 -5a1 1 0 0 0 0 -1.25l-4 -5a1 1 0 0 0 -.78 -.375h-6z"
+                                        stroke-width="0" fill="currentColor" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="follow-links flex w-full mt-16 flex-col space-y-8 h-fit">
+            <div class="followlinks flex flex-row mx-7 gap-3">
+                <div class="text-base flex justify-center items-center">Follow Microsoft</div>
+                <div class="facebook"><a class="d-inline-block" href="https://www.facebook.com/MicrosoftIndia"
+                        target="_blank" aria-label="Follow Microsoft on Facebook, opens in a new tab"
+                        data-bi-ecn="Facebook" data-bi-bhvr="126" data-bi-cn="Facebook" data-bi-socchn="Facebook"
+                        data-bi-ct="Social Button" data-bi-pa="body" data-bi-compnm="Social Follow - horizontal">
+
+                        <img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Facebook 2x?scl=1"
+                            data-src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Facebook 2x?scl=1"
+                            alt="Facebook" title="Facebook" width="32" height="32">
+
+
+                    </a></div>
+                <div class="tw-x"><a class="d-inline-block" href="https://twitter.com/microsoftindia" target="_blank"
+                        aria-label="Follow Microsoft on Twitter, opens in a new tab" data-bi-ecn="X" data-bi-bhvr="126"
+                        data-bi-cn="X" data-bi-socchn="X" data-bi-ct="Social Button" data-bi-pa="body"
+                        data-bi-compnm="Social Follow - horizontal">
+
+                        <img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/icon-MSCOM-X-64x64?scl=1"
+                            data-src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/icon-MSCOM-X-64x64?scl=1"
+                            alt="X" title="X" width="32" height="32">
+
+
+                    </a></div>
+                <div class="yt">
+                    <a class="d-inline-block" href="https://www.youtube.com/user/IndiaMicrosoftVideos" target="_blank"
+                        aria-label="Follow Microsoft on YouTube, opens in a new tab" data-bi-ecn="YouTube"
+                        data-bi-bhvr="126" data-bi-cn="YouTube" data-bi-socchn="YouTube" data-bi-ct="Social Button"
+                        data-bi-pa="body" data-bi-compnm="Social Follow - horizontal">
+
+                        <img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/YouTube 2x?scl=1"
+                            data-src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/YouTube 2x?scl=1"
+                            alt="YouTube" title="YouTube" width="32" height="32">
+
+
+                    </a>
+                </div>
+            </div>
+            <div class="back-to-top-button flex justify-end ">
+                <a href="">
+                    <div
+                        class="mx-7 buttons px-3 py-2 w-fit border-[1px] hover:border-gray-600 h-fit flex cursor-pointer font-bold text-gray-800 bg-[#d9d9d9] hover:shadow-lg hover:bg-white rounded-sm">
+                        &uarr; Back to top</div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="footer pt-8 px-8 bg-[#f2f2f2] w-full h-fit flex flex-wrap flex-col">
+        <div class="section_link gap-x-20 gap-y-8 flex flex-row flex-wrap">
+            <div class="heading-1">
+                <div class="heading font-bold text-gray-600">
+                    What's new
+                </div>
+                <div class="contents">
+                    <div class="items">Microsoft 365</div>
+                    <div class="items">Games</div>
+                    <div class="items">Surface Pro 9</div>
+                    <div class="items">Surface Laptop 5</div>
+                    <div class="items">Surface Laptop Go 2</div>
+                    <div class="items">Windows 11 apps</div>
+                </div>
+            </div>
+            <div class="heading-2">
+                <div class="heading font-bold text-gray-600">
+                    Microsoft Store
+                </div>
+                <div class="contents">
+                    <div class="items">Account profile</div>
+                    <div class="items">Download Center</div>
+                    <div class="items">Microsoft Store support</div>
+                    <div class="items">Returns</div>
+                    <div class="items">Older tracking</div>
+                </div>
+            </div>
+            <div class="heading-3">
+                <div class="heading font-bold text-gray-600">
+                    Education
+                </div>
+                <div class="contents">
+                    <div class="items">Microsoft in education</div>
+                    <div class="items">Office for students</div>
+                    <div class="items">Microsoft Teams for Education</div>
+                    <div class="items">Microsoft 365 Education</div>
+                    <div class="items">Office Education</div>
+                    <div class="items">Educator training and developemnt</div>
+                    <div class="items">Deals for students and parents</div>
+                    <div class="items">Azure for students</div>
+                </div>
+            </div>
+            <div class="heading-4">
+                <div class="heading font-bold text-gray-600">
+                    Buisness
+                </div>
+                <div class="contents">
+                    <div class="items">Microsoft CLoud</div>
+                    <div class="items">Microsoft Security</div>
+                    <div class="items">Azure</div>
+                    <div class="items">Dynamics 365</div>
+                    <div class="items">Microsoft 365</div>
+                    <div class="items">Microsoft Advertising</div>
+                    <div class="items">Microsoft Industry</div>
+                    <div class="items">Microsoft Teams</div>
+                </div>
+            </div>
+            <div class="heading-5">
+                <div class="heading font-bold text-gray-600">
+                    Developer & IT
+                </div>
+                <div class="contents">
+                    <div class="items">Developer Center</div>
+                    <div class="items">Documentation</div>
+                    <div class="items">Microsoft Learn</div>
+                    <div class="items">Microsoft Tech Community</div>
+                    <div class="items">Azure Marketplace</div>
+                    <div class="items">AppSource</div>
+                    <div class="items">Microsoft Power Platform</div>
+                    <div class="items">Visual Studio</div>
+                </div>
+            </div>
+            <div class="heading-6">
+                <div class="heading font-bold text-gray-600">
+                    Company
+                </div>
+                <div class="contents">
+                    <div class="items">Careers</div>
+                    <div class="items">About Microsoft</div>
+                    <div class="items">Company news</div>
+                    <div class="items">Privacy at Microsoft</div>
+                    <div class="items">Investors</div>
+                    <div class="items">Security</div>
+                    <div class="items">Sustainability</div>
+                </div>
+            </div>
+        </div>
+        <div class="section_2 flex flex-col space-y-4 mt-6">
             <div class="icon-1 flex">
-                <div><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-world" width="24"
-                        height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none"
-                        stroke-linecap="round" stroke-linejoin="round">
+                <div class="justify-center">
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                        class="icon justify-center items-center icon-tabler icon-tabler-world" width="24" height="24"
+                        viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round"
+                        stroke-linejoin="round">
                         <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                         <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
                         <path d="M3.6 9h16.8" />
                         <path d="M3.6 15h16.8" />
                         <path d="M11.5 3a17 17 0 0 0 0 18" />
                         <path d="M12.5 3a17 17 0 0 1 0 18" />
-                    </svg></div>
-                <div></div><a id="locale-picker-link"
-                    aria-label="Content Language Selector. Currently set to English (India)"
-                    class="c-uhff-link c-uhff-lang-selector c-glyph glyph-world"
-                    href="https://www.microsoft.com/en-in/locale"
-                    data-m="{&quot;cN&quot;:&quot;locale_picker(IN)_nav&quot;,&quot;id&quot;:&quot;n7c1c1m1r1a2&quot;,&quot;sN&quot;:7,&quot;aN&quot;:&quot;c1c1m1r1a2&quot;}">English
-                    (India)</a>
+                    </svg>
+                </div>
+                <div><a id="locale-picker-link" aria-label="Content Language Selector. Currently set to English (India)"
+                        class="c-uhff-link text-sm text-gray-700 hover:underline c-uhff-lang-selector c-glyph glyph-world"
+                        href="https://www.microsoft.com/en-in/locale"
+                        data-m="{&quot;cN&quot;:&quot;locale_picker(IN)_nav&quot;,&quot;id&quot;:&quot;n7c1c1m1r1a2&quot;,&quot;sN&quot;:7,&quot;aN&quot;:&quot;c1c1m1r1a2&quot;}">English
+                        (India)</a>
+                </div>
+            </div>
+            <div class="icon-2 w-fit h-fit flex">
+                <div class="items-center justify-center flex">
+                    <svg role="img" class="justify-center w-fit items-center" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 30 14" xml:space="preserve" height="16" width="43">
+                        <title>California Consumer Privacy Act (CCPA) Opt-Out Icon</title>
+                        <path d="M7.4 12.8h6.8l3.1-11.6H7.4C4.2 1.2 1.6 3.8 1.6 7s2.6 5.8 5.8 5.8z"
+                            style="fill-rule:evenodd;clip-rule:evenodd;fill:#fff"></path>
+                        <path
+                            d="M22.6 0H7.4c-3.9 0-7 3.1-7 7s3.1 7 7 7h15.2c3.9 0 7-3.1 7-7s-3.2-7-7-7zm-21 7c0-3.2 2.6-5.8 5.8-5.8h9.9l-3.1 11.6H7.4c-3.2 0-5.8-2.6-5.8-5.8z"
+                            style="fill-rule:evenodd;clip-rule:evenodd;fill:#06f"></path>
+                        <path
+                            d="M24.6 4c.2.2.2.6 0 .8L22.5 7l2.2 2.2c.2.2.2.6 0 .8-.2.2-.6.2-.8 0l-2.2-2.2-2.2 2.2c-.2.2-.6.2-.8 0-.2-.2-.2-.6 0-.8L20.8 7l-2.2-2.2c-.2-.2-.2-.6 0-.8.2-.2.6-.2.8 0l2.2 2.2L23.8 4c.2-.2.6-.2.8 0z"
+                            style="fill:#fff"></path>
+                        <path
+                            d="M12.7 4.1c.2.2.3.6.1.8L8.6 9.8c-.1.1-.2.2-.3.2-.2.1-.5.1-.7-.1L5.4 7.7c-.2-.2-.2-.6 0-.8.2-.2.6-.2.8 0L8 8.6l3.8-4.5c.2-.2.6-.2.9 0z"
+                            style="fill:#06f"></path>
+                    </svg>
+                </div>
+                <div class="text-sm hover:underline cursor-pointer">Your Privacy Choices</div>
             </div>
         </div>
-        <div class="icon-2 flex">
-            <svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 14" xml:space="preserve" height="16"
-                width="43">
-                <title>California Consumer Privacy Act (CCPA) Opt-Out Icon</title>
-                <path d="M7.4 12.8h6.8l3.1-11.6H7.4C4.2 1.2 1.6 3.8 1.6 7s2.6 5.8 5.8 5.8z"
-                    style="fill-rule:evenodd;clip-rule:evenodd;fill:#fff"></path>
-                <path
-                    d="M22.6 0H7.4c-3.9 0-7 3.1-7 7s3.1 7 7 7h15.2c3.9 0 7-3.1 7-7s-3.2-7-7-7zm-21 7c0-3.2 2.6-5.8 5.8-5.8h9.9l-3.1 11.6H7.4c-3.2 0-5.8-2.6-5.8-5.8z"
-                    style="fill-rule:evenodd;clip-rule:evenodd;fill:#06f"></path>
-                <path
-                    d="M24.6 4c.2.2.2.6 0 .8L22.5 7l2.2 2.2c.2.2.2.6 0 .8-.2.2-.6.2-.8 0l-2.2-2.2-2.2 2.2c-.2.2-.6.2-.8 0-.2-.2-.2-.6 0-.8L20.8 7l-2.2-2.2c-.2-.2-.2-.6 0-.8.2-.2.6-.2.8 0l2.2 2.2L23.8 4c.2-.2.6-.2.8 0z"
-                    style="fill:#fff"></path>
-                <path
-                    d="M12.7 4.1c.2.2.3.6.1.8L8.6 9.8c-.1.1-.2.2-.3.2-.2.1-.5.1-.7-.1L5.4 7.7c-.2-.2-.2-.6 0-.8.2-.2.6-.2.8 0L8 8.6l3.8-4.5c.2-.2.6-.2.9 0z"
-                    style="fill:#06f"></path>
-            </svg>
-            <div class="text">Your Privacy Choices</div>
+        <div class="links_down">
+            <ul class="section_contact_info flex flex-wrap space-x-4 mx-7 my-4 md:justify-end">
+                <li class="text-xs md:text-sm lg:text-base hover:underline text-gray-800 cursor-pointer">Contact
+                    Microsoft
+                </li>
+                <li class="text-xs md:text-sm lg:text-base hover:underline text-gray-800 cursor-pointer">Privacy</li>
+                <li class="text-xs md:text-sm lg:text-base hover:underline text-gray-800 cursor-pointer">Terms of use
+                </li>
+                <li class="text-xs md:text-sm lg:text-base hover:underline text-gray-800 cursor-pointer">Trademarks</li>
+                <li class="text-xs md:text-sm lg:text-base hover:underline text-gray-800 cursor-pointer">About our ads
+                </li>
+                <li class="text-xs md:text-sm lg:text-base hover:underline text-gray-800 cursor-pointer">&copy;
+                    Microsoft
+                    2023</li>
+            </ul>
         </div>
-        <div></div>
     </div>
-    <ul class="section_contact_info flex flex-wrap space-x-4 mx-7 md:justify-end">
-        <li class="text-xs md:text-sm lg:text-base hover:underline text-gray-800 ">Contact Microsoft</li>
-        <li class="text-xs md:text-sm lg:text-base hover:underline text-gray-800 ">Privacy</li>
-        <li class="text-xs md:text-sm lg:text-base hover:underline text-gray-800 ">Terms of use</li>
-        <li class="text-xs md:text-sm lg:text-base hover:underline text-gray-800 ">Trademarks</li>
-        <li class="text-xs md:text-sm lg:text-base hover:underline text-gray-800 ">About our ads</li>
-        <li class="text-xs md:text-sm lg:text-base hover:underline text-gray-800 ">&copy; Microsoft 2023</li>
-        </div>
-        </div>
 </body>
 
 </html>
